@@ -57,7 +57,7 @@ question3= input("Do you: \n (1) Invest $100 an indivual stock of a company \n O
 time.sleep(2)
 if question3 == "1":
    account_balance= account_balance - 100
-   print("Individual stocks are lika a gamble. You never know which company will increase flourish and which company will fail. The company you chose to invest in failed. You have lost your $100")
+   print("Individual stocks are like a gamble. You never know which company will increase flourish and which company will fail. The company you chose to invest in failed. You have lost your $100")
    print(account_balance)
 elif question3 == "2":
    answer1 = input("The market is down, would you like to remove all of your money from the fund? (y = yes, n = no )")
